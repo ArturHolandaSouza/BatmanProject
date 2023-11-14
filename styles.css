@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family:Kdam Thmor Pro, sans-serif;
+}
+
+li:hover {
+    color: #D21617;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+#banner {
+    background-image: url('https://imagensfree.com.br/wp-content/uploads/2021/10/batman-2022-wallpaper-oficial.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+#trailer-container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trailer {
+    width: 50%;
+}
+
+#sinopse {
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.description {
+    color: #fff;
+    font-size: 19px;
+    font-family:Kdam Thmor Pro, sans-serif;
+    width: 70%;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    background-color: #D21617;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family:Kdam Thmor Pro, sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url(https://wallpapercave.com/wp/wp5784416.jpg);
+}
+
+.banner-2 {
+    background-image: url(https://images.wallpapersden.com/image/download/zoe-kravitz-as-catwoman-the-batman-official_bWZoaWmUmZqaraWkpJRmZ2lnrWdrbW0.jpg);
+}
+
+.banner-3 {
+    background-image: url(https://i.pinimg.com/originals/95/c4/65/95c4654db07456e6b9a3640253cd76a9.jpg);
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-size: 19px;
+    font-family:Kdam Thmor Pro, sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto1 {
+    background-image: url(https://th.bing.com/th/id/R.c3824cf465787ac552233ebca13e47c7?rik=deTDLA5x%2b7XALg&pid=ImgRaw&r=0);
+}
+
+.foto2 {
+    background-image: url(https://th.bing.com/th/id/OIP.bYedgJ9NIVL4nuzwspCkHQHaEo?pid=ImgDet&rs=1);
+}
+
+.foto3 {
+    background-image: url(https://th.bing.com/th/id/OIP.9NlUWFGe924r4X1oqM3RrQHaEK?pid=ImgDet&rs=1);
+}
+
+.foto4 {
+    background-image: url(https://th.bing.com/th/id/R.dbb3b6868c23bd93adf64fdf3a69ca05?rik=eYlpK4UnmjrcUw&pid=ImgRaw&r=0);
+}
+
+.foto5 {
+    background-image: url(https://www.highonfilms.com/wp-content/uploads/2022/04/The-Batman-2022-1024x536.jpg);
+}
+
+.foto6 {
+    background-image: url(https://images.hdqwalls.com/wallpapers/bthumb/the-batman-2022-fanart-34.jpg);
+}
+
+.contato {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+#nome {
+    font-family:Kdam Thmor Pro, sans-serif;
+    font-size: 19px;
+    display: block;
+}
+
+#email {
+    font-family:Kdam Thmor Pro, sans-serif;
+    font-size: 19px;
+    display: block;
+}
+
+#mensagem {
+    font-family:Kdam Thmor Pro, sans-serif;
+    color: #fff;
+    font-size: 19px;
+    display: block;
+}
+
+#labelnome {
+    font-family:Kdam Thmor Pro, sans-serif;
+    font-size: 19px;
+    color: #fff;
+}
+
+#labelemail {
+    font-family:Kdam Thmor Pro, sans-serif;
+    font-size: 19px;
+    color: #fff;
+}
+
+h1 {
+    font-family:Kdam Thmor Pro, sans-serif;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+#botaoEnviar {
+    width: 200px;
+}
+
+.container {
+	max-width: 100%;
+    height: 600px;
+	margin: 30px auto;
+	border-radius: 8px;
+	padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.comment {
+    color: #fff;
+	display: block;
+	transition: all 1s;
+    font-size: 19px;
+    font-family:Kdam Thmor Pro, sans-serif;
+    display: block;
+}
+
+.commentClicked {
+	min-height: 0px;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	padding: 5px 10px;
+    font-size: 19px;
+    color: #fff;
+    font-family:Kdam Thmor Pro, sans-serif;
+}
+
+.container textarea {
+	width: 100%;
+	border: none;
+    color: #fff;
+	padding: 5px 10px;
+	height: 50%;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: 2px solid #016BA8;
+	transition: all 0.5s;
+	margin-top: 15px;
+    font-size: 19px;
+    font-family:Kdam Thmor Pro, sans-serif;
+    display: block;
+}
+
+button.primaryContained {
+	width: 200px;
+    height: 60px;
+    background-color: #D21617;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+    display: block;
+}
+
+button.primaryContained:hover {
+	background-color: #fff;
+    color: #000;
+}
+@media(max-width:768px){
+
+    .footer-navigation {
+        display: block;
+    }
+    
+    nav {
+        display: none;
+    }
+
+    #banner {
+        background-position: 35%;
+    }
+
+    #trailer-container {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trailer {
+        width: 100%;
+    }
+
+    #sinopse {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .cards-content {
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+    }
+}
